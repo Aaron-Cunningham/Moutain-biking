@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Events - MeFamily Bootstrap Template</title>
+  <title>Contact - MeFamily Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -27,12 +27,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: MeFamily - v4.7.0
-  * Template URL: https://bootstrapmade.com/family-multipurpose-html-bootstrap-template-free/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+ 
 </head>
 
 <body>
@@ -48,10 +43,11 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="homepage.html">Home</a></li>
-          <li><a class="active" href="events.html">Events</a></li>
-          <li><a href="maintenance.html">Shop</a></li>         
-          <li><a href="maintenance.html">Gallery</a></li>        
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="maintenance.html">Shop</a></li>
+          <li><a href="maintenance.html">Gallery</a></li>
+         
+          <li><a class="active" href="contact.html">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -66,50 +62,85 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Events</h2>
+          <h2>Contact</h2>
           <ol>
             <li><a href="homepage.html">Home</a></li>
-            <li>Events</li>
+            <li>Contact</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <!-- ======= Event List Section ======= -->
-    <section id="event-list" class="event-list">
+    <!-- ======= Contact Us Section ======= -->
+    <section id="contact-us" class="contact-us">
       <div class="container">
 
-        <div class="row">
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <div class="card-img">
-                <img src="http://www.alpsmountainbike.com/img/tmb/galerie/tmb_galerie10.jpg" alt="...">
+        <div>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73995.60831068853!2d-1.2967471017512193!3d54.579981842171435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487ee565827fa52d%3A0x6465a6d68dff3324!2sErrington%20Wood!5e0!3m2!1sen!2suk!4v1646949397765!5m2!1sen!2suk" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>New Marske, Redcar TS11 8HW</p>
               </div>
-              <div class="card-body">
-                <h5 class="card-title">Dolomites, Italy</h5>
-                <p class="fst-italic text-center">July 26th 2022</p>
-                <p class="card-text">This region bursting with natural beauty and diversity. Whether connoisseur, active or adventurous, everyone is thrilled by the Italian Dolomites. Little wonder, with the variety offered in the Dolomites</p>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
               </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <div class="card-img">
-                <img src="https://www.portugalbike.com/wp-content/uploads/2017/02/portugal-bike-tours-the-beautiful-alentejo-beaches-seelf-guided.jpg" alt="...">
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+44 7865746354</p>
               </div>
-              <div class="card-body">
-                <h5 class="card-title">Rota Vicentina, Portugal</h5>
-                <p class="fst-italic text-center">August 15th 2022</p>
-                <p class="card-text">The Rota Vicentina is a network of hiking trails in the Alentejo and Algarve provinces in the south of Portugal. It's beautiful and very hot during the summer. You'll enjoy local Portuguese cuisine and culture while here!</p>
-              </div>
+
             </div>
 
           </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" required>
+                <div class="validate"></div>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
         </div>
 
       </div>
-    </section><!-- End Event List Section -->
+    </section><!-- End Contact Us Section -->
 
   </main><!-- End #main -->
 
