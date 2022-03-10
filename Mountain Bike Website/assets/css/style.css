@@ -498,7 +498,7 @@ section {
     border: 2px solid forestgreen;
 }
 .about .content .btn-learn-more:hover {
-  background: #006fbe;
+  background: forestgreen;
   color: #fff;
   text-decoration: none;
 }
@@ -525,11 +525,11 @@ section {
 }
 .features .icon i {
   line-height: 0;
-  color: #006fbe;
+  color: forestgreen;
   font-size: 34px;
 }
 .features .icon-box:hover .icon {
-  box-shadow: 0px 0 25px rgba(0, 111, 190, 0.3);
+  box-shadow: 0px 0 25px rgba(34, 139, 34, 0.3);
 }
 .features .title {
   font-weight: 600;
@@ -551,7 +551,7 @@ section {
   display: block;
   width: 50px;
   height: 2px;
-  background: #006fbe;
+  background: forestgreen;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -575,10 +575,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #006fbe;
+  border: 1px solid #000000;
 }
 .recent-photos .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #006fbe;
+  background-color: forestgreen;
 }
 .recent-photos .owl-nav, .recent-photos .owl-dots {
   margin-top: 25px;
@@ -1135,7 +1135,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #006fbe;
+  background: #f5bf42;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
